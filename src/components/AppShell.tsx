@@ -152,7 +152,7 @@ export function AppShell({ children, allowIncompleteSetup = false }: Props) {
         </div>
       </header>
 
-      <div className="mx-auto flex max-w-6xl">
+      <div className="flex">
         <nav className="sticky top-14 hidden h-[calc(100vh-3.5rem)] w-48 shrink-0 flex-col gap-1 border-r p-3 md:flex lg:w-56" aria-label={t('Main')}>
           {NAV.map(({ href, label, icon: Icon }) => (
             <Link
@@ -168,7 +168,7 @@ export function AppShell({ children, allowIncompleteSetup = false }: Props) {
             </Link>
           ))}
         </nav>
-        <main className="min-w-0 flex-1 px-4 pb-32 pt-6 md:px-8 md:pb-10">{children}</main>
+        <main className="mx-auto min-w-0 max-w-5xl flex-1 px-4 pb-32 pt-6 md:px-8 md:pb-10">{children}</main>
       </div>
 
       <nav className="fixed inset-x-0 bottom-0 z-20 grid grid-cols-6 border-t bg-card pb-[env(safe-area-inset-bottom)] md:hidden" aria-label={t('Main')}>
