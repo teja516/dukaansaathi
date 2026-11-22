@@ -4,6 +4,8 @@
 
 **Know your shop's cash before it runs short.**
 
+### 🔗 [Live demo: https://dukaansaathi-liart.vercel.app](https://dukaansaathi-liart.vercel.app)
+
 A bilingual (English / हिन्दी) cash-flow assistant for owner-run kirana and neighbourhood shops.
 Track customer credit (udhaar), supplier bills and expenses, see your real cash today, and see what your
 cash may look like over the next 30, 60 and 90 days.
