@@ -1,0 +1,18 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "no-restricted-imports": [
+      "error",
+      {
+        "patterns": [
+          {
+            "group": [
+              "@/modules/*/*"
+            ],
+            "message": "Use another module only through its public index \u2014 import from '@/modules/<name>', never a file inside it."
+          }
+        ]
+      }
+    ]
+  }
+}

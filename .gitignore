@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+
+# Environment and secrets (keep .env.example, which has placeholders only)
+.env
+.env.*
+!.env.example
+
+# Build output and caches
+.next/
+.next-*/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Tests and tooling output
+coverage/
+*.log
+npm-debug.log*
+.eslintcache
+
+# Local databases and dumps
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.dump
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Code-generator working files (not part of the app)
+.codebenders/
+codebenders.app.json
+nexen-env.d.ts
+public/nexen-logo.png
+
+# Empty placeholder created by the generator. Add a real Dockerfile here if you containerise the app.
+Dockerfile
+
+# Old nested repository from the early planning stage (docs now live in docs/product/)
+dukaansaathi/
+
+# Superseded by scripts/dev-db.mjs (kept locally, not published)
+scripts/setup-db.mjs
