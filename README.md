@@ -105,6 +105,10 @@ Sign in as `demo@example.com` (or `shopkeeper@example.com`) with the `DEMO_PASSW
 The demo shop ("श्री लक्ष्मी जनरल स्टोर्स") contains made-up customers, bills and expenses, each marked
 **Sample** on screen. Nothing in it is real data.
 
+### Deploy it for free
+
+See [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) for a step-by-step guide to hosting on Vercel (app) and Neon (PostgreSQL), both free to start.
+
 ### Production build
 
 ```bash
@@ -261,6 +265,7 @@ English and Hindi are supported everywhere, including server error messages and 
 |---|---|
 | [docs/BUSINESS_RULES.md](docs/BUSINESS_RULES.md) | Every financial rule, where it lives and how it is tested |
 | [docs/OPERATIONS.md](docs/OPERATIONS.md) | Database backup and restore, production checklist, troubleshooting |
+| [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md) | Deploying for free (Vercel + Neon), step by step |
 | [docs/product/DukaanSaathi_Final_Product_Specification.md](docs/product/DukaanSaathi_Final_Product_Specification.md) | The product requirements |
 | [docs/product/TECHNICAL_DECISIONS.md](docs/product/TECHNICAL_DECISIONS.md) | Why the build is the way it is |
 | [docs/product/IMPLEMENTATION_STATUS.md](docs/product/IMPLEMENTATION_STATUS.md) | What is done and what is not |
