@@ -79,7 +79,7 @@ function ActionCentre() {
             {t(tab.l)}
           </button>
         ))}
-        <button type="button" aria-pressed={showDone} onClick={() => setShowDone((v) => !v)} className={cn('ml-auto rounded-full border px-3.5 py-2 text-sm', showDone ? 'border-primary bg-primary text-primary-foreground' : 'bg-card hover:bg-accent')}>
+        <button type="button" aria-pressed={showDone} onClick={() => setShowDone((v) => !v)} className={cn('rounded-full border px-3.5 py-2 text-sm', showDone ? 'border-primary bg-primary text-primary-foreground' : 'bg-card hover:bg-accent')}>
           {t('Done')}
         </button>
       </div>
